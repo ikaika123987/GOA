@@ -1,9 +1,3 @@
-class HelloWorld:
-    def __call__(self):
-        print("Hello, World!")
-
-# ობიექტის შექმნა
-hello_world = HelloWorld()
-
-# როცა დავწერთ hello_world(), შესრულდება print()
+def hello_world():
+    print("print()")
 hello_world()
