@@ -28,5 +28,3 @@ print(type(knows_programming))
 
 print(name + " " + surname + " " + str(age) + " " + str(knows_programming))
 print(name, surname)
-
-
