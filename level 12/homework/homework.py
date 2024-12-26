@@ -1,15 +1,3 @@
-size = 5  # კვადრატის მხარის სიგრძე
+for i in range(1, 50, 2):
 
-for i in range(size):
-    print('*' * size)
-
-
-
-
-
-
-
-
-
-
-
+    print(i)
