@@ -1,7 +1,3 @@
-name1 = "irakli"
-name2 = "giorgi"
-name3 = "davit"
-name4 = "sandro"
-name5 = "luka"
+name_list = ["irakli", "goga", "giorgi", "nika", "dato"]
 
-print(name1, name2, name3, name4, name5)
+print(name_list[0], name_list[1], name_list[2], name_list[3], name_list[4])

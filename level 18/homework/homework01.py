@@ -1,9 +1,3 @@
-numbers = list(range(1, 11))
+num_list = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 
-# კონკრეტული ელემენტების დაბეჭდვა
-
-print(f"პირველი ელემენტი: {numbers[0]}")
-print(f"მეხუთე ელემენტი: {numbers[4]}")
-print(f"მეათე ელემენტი: {numbers[9]}")
-
-
+print(num_list[0], num_list[4], num_list[-1])

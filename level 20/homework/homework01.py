@@ -1,8 +1,5 @@
-# რიცხვების სია
-numbers = list(range(1, 101))  # 1-დან 100-მდე რიცხვები
+num_list = [5, 6, 10, 3, 9, 15, 12, 18, 30, 45]
 
-# 5-ისა და 3-ის ჯერადების პოვნა
-multiples_of_5_and_3 = [num for num in numbers if num % 5 == 0 and num % 3 == 0]
-
-# შედეგის ჩვენება
-print("5-ისა და 3-ის ჯერადები:", multiples_of_5_and_3)
+for i in num_list:
+    if i % 5 == 0 and i % 3 == 0:
+        print(i)

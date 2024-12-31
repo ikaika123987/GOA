@@ -1,11 +1,6 @@
-def reverse_string(s):
-    return s[::-1]
+name = "aleqsandre"
 
-# მაგალითი
-input_string = "irakli"
-reversed_string = reverse_string(input_string)
-print(f"'{input_string}' -> '{reversed_string}'")
-
+print(name[::-1])
 
 
 

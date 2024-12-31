@@ -1,4 +1,4 @@
-name = "aleqsandre"
+name = "goga"
 count = 0
 for i in name:
     count += 1

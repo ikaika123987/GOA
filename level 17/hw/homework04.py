@@ -1,8 +1,9 @@
-# რიცხვების სია
-numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+num_list = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 
-# საშუალოს გამოთვლა
-average = sum(numbers)
+sum = 0
 
-# შედეგის გამოტანა
-print(f"რიცხვების {numbers} საშუალო არის {average}")
+for i in num_list:
+    sum += i
+
+print(sum // len(num_list))
+
