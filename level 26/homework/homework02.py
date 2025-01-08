@@ -1,7 +1,7 @@
 def even_or_odd(number):
     if number % 2 == 0:
-        print(number,"luwia")
+        print(number,"ლუწია")
     else:
-        print(number,"kentia")
+        print(number,"კენტია")
 
-even_or_odd(56)
+even_or_odd(14)

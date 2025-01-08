@@ -1,11 +1,3 @@
-# ფუნქცია, რომელიც ითვლის ელემენტის რაოდენობას მასივში
-def count_occurrences(arr, element):
-    return arr.count(element)
+list_off_name = ["irakli", "giotgi", "goga", "irakli", "irakli"]
 
-# მაგალითი
-arr = ["davit", "gio", "davit", "gio", "davit"]
-element = "davit"
-
-# შედეგის გამოტანა
-count = count_occurrences(arr, element)
-print(f"ელემენტი '{element}' მასივში გვხვდება {count}-ჯერ.")
+print(list_off_name.count("irakli"))

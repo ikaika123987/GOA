@@ -1,33 +1,64 @@
-import turtle
+from turtle import *
 
-# ფუნქცია სამკუთხედის დასახაზად
-def draw_triangle(color):
-    turtle.fillcolor(color)
-    turtle.begin_fill()
-    for _ in range(3):
-        turtle.forward(50)
-        turtle.left(120)
-    turtle.end_fill()
+def triangle():
+    for i in range(3):
+        forward(50)
+        left(120)
+        forward(50)
+        left(120)
+        forward(50)
 
-# ფუნქცია სამკუთხედების ხატვისთვის
-def draw_120_triangles():
-    for i in range(1, 121):  # ინდექსები 1-დან 120-მდე
-        if i % 2 == 1:  # კენტი ინდექსი
-            draw_triangle("green")
-        else:  # ლუწი ინდექსი
-            draw_triangle("blue")
-        turtle.penup()
-        turtle.forward(60)  # გადადგას 60 პიქსელი შემდეგი სამკუთხედის დასახატად
-        turtle.pendown()
+triangle()
 
-# ტურტლის კონფიგურაცია
-turtle.speed(0)
-turtle.penup()
-turtle.goto(-300, 0)  # კოორდინატების დაწყება მარცხნიდან
-turtle.pendown()
+exitonclick()
 
-# ფუნქციის გამოძახება
-draw_120_triangles()
 
-# ეკრანის დახურვა მომხმარებლის მხრიდან
-turtle.done()
+
+
+# from turtle import *
+
+# def walk_and_back():
+
+#     for i in range(120):
+#         walk()
+#         back()
+
+# walk_and_back()
+# x = 120
+# exitonclick()
+
+
+# from turtle import * 
+
+# speed(10)  
+
+
+# def draw_triangle(side_length):
+#     for _ in range(3):
+#         forward(side_length)
+#         left(120)
+        
+
+# for i in range(0, 121):
+#     if i % 2 != 0:  
+#         begin_fill()
+#         draw_triangle(i *10)  
+#         penup()
+#         forward(100)
+#         pendown()
+        
+#         color('green')
+       
+#         end_fill()
+#     else:
+#        color('blue')
+#        begin_fill() 
+#        draw_triangle(i *10)  
+#        penup()
+#        forward(100)  
+#        pendown()
+      
+       
+       
+#        end_fill()
+# exitonclick()

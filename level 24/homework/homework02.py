@@ -1,23 +1,15 @@
-def manual_replace(string, old, new):
-    result = ""  # საბოლოო შედეგის შესანახად
-    i = 0
+st = "I am programmer"
 
-    while i < len(string):
-        # თუ ვპოულობთ `old` სტრიქონს
-        if string[i:i+len(old)] == old:
-            result += new  # ვამატებთ ახალ სტრიქონს
-            i += len(old)  # გადავდივართ `old`-ის სიგრძეზე
-        else:
-            result += string[i]  # ვამატებთ მიმდინარე სიმბოლოს
-            i += 1
+char_for_replace = "m"
 
-    return result
+char_replace_with = "s"
 
-# გამოყენების მაგალითები:
-text = "ეს არის მაგალითი ტექსტი. მაგალითი მნიშვნელოვანია."
-print(manual_replace(text, "მაგალითი", "ნიმუში"))
-# შედეგი: "ეს არის ნიმუში ტექსტი. ნიმუში მნიშვნელოვანია."
+res = ""
 
-text2 = "abababab"
-print(manual_replace(text2, "ab", "cd"))
-# შედეგი: "cdcdcdcd"
+for i in st:
+    if i == char_for_replace:
+        i = char_replace_with
+        res += i
+    else:
+        res += i
+print(res)
