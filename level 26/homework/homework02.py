@@ -4,4 +4,4 @@ def even_or_odd(number):
     else:
         print(number,"კენტია")
 
-even_or_odd(14)
+even_or_odd(24)

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+header{
+    color: black;
+    font-family: "Major Mono Display", serif;
+    text-align: center;
+}
+
+main{
+    color: rgb(0, 0, 0);
+    background-color: crimson;
+    text-align: center;
+}
+body{
+    background-color: azure;
+}
+div{
+    background-color: crimson;
+    width: 500px;
+}
