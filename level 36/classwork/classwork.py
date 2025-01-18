@@ -1,5 +1,8 @@
 # 1
-# ????
+
+
+# def digitize(n):
+#     return [int(d) for d in str(n)][::-1]
 
 
 # 2
